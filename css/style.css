@@ -1,0 +1,32 @@
+body {
+    background-color: dimgrey;
+}
+
+header {
+    display: flex;
+    width: 100vh;
+}
+
+.titulo {
+    color: deepskyblue;
+    display: inline-block;
+    margin-top: 0;
+}
+
+img {
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    left: 100%;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #17302e;
+    font-weight: 600;
+}
+
+code {
+    background-color: #35343d;
+    color: green;
+}
