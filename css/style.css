@@ -4,20 +4,19 @@ body {
 
 header {
     display: flex;
-    width: 100vh;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .titulo {
-    color: deepskyblue;
+    color: #015001;
     display: inline-block;
-    margin-top: 0;
 }
 
 img {
     width: 100px;
+    height: 100px;
     display: inline-block;
-    position: relative;
-    left: 100%;
 }
 
 p {
