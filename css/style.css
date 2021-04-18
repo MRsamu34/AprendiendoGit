@@ -1,10 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
 body {
     background-color: dimgrey;
+}
+
+p::selection {
+    color: #457457;
+    background: black;
+}
+
+code::selection {
+    background: green;
+    color: black;
 }
 
 .name {
     color: ghostwhite;
     height: .1px;
+    margin-bottom: 1.3rem;
+    font-size: 1.5rem;
 }
 
 header {
@@ -21,6 +43,8 @@ header {
     text-align: center;
     border: solid #050f09 2px;
     border-radius: 10px;
+    padding-top: 1rem;
+    font-size: 2.8rem;
 }
 
 img {
@@ -29,11 +53,21 @@ img {
     display: inline-block;
 }
 
+main {
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+h3 {
+    color: #c1c9c6;
+    font-size: 2.3rem;
+}
+
 p {
-    width: 50%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #17302e;
+    color: #1a2928;
     font-weight: 600;
+    font-size: 2rem;
 }
 
 code {
@@ -43,5 +77,5 @@ code {
 
 ol {
     color: #194d19;
-
+    margin-left: 5rem;
 }
