@@ -45,3 +45,13 @@ ol {
     color: #194d19;
 
 }
+
+footer {
+    background: #194d19;
+    height: 2rem;
+    text-align: center;
+    width: 100%;
+    padding-top: .2rem;
+    font-size: 1.2rem;
+    color: #d9f5f5;
+}
