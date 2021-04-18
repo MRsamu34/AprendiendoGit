@@ -79,3 +79,13 @@ ol {
     color: #194d19;
     margin-left: 5rem;
 }
+
+footer {
+    background: #194d19;
+    height: 3rem;
+    text-align: center;
+    width: 100%;
+    padding-top: .2rem;
+    font-size: 1.8rem;
+    color: #d9f5f5;
+}
