@@ -84,15 +84,21 @@ ol {
 footer {
     background: #194d19;
     height: 2%;
-    text-align: center;
+    text-align: start;
     width: 100%;
-    padding-top: .2rem;
+    padding: 2rem;
     font-size: 1.8rem;
     color: #d9f5f5;
 }
 
 footer h4 {
+    margin-top: 2rem;
+    font-size: 2rem;
     text-align: start;
+}
+
+footer h4 a {
+    font-size: 1.6rem;
 }
 
 .facebul {
