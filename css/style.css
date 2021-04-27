@@ -47,7 +47,12 @@ header {
     font-size: 2.8rem;
 }
 
-img {
+.atl {
+    padding-left: 20rem;
+    width: 100rem;
+}
+
+header img {
     width: 100px;
     height: 100px;
     display: inline-block;
