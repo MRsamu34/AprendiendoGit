@@ -5,24 +5,23 @@
 }
 
 html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 62.5%;
 }
 
+:root {
+    --main-bg-color: #000000e6;
+    --sec-bg-color: #11a001;
+    --p-bg-color: #4e4e4e;
+    --text-color: #061308;
+}
+
 body {
-    background-color: dimgrey;
-}
-
-p::selection {
-    color: #457457;
-    background: black;
-}
-
-code::selection {
-    background: green;
-    color: black;
+    background-color: #050505ec;
 }
 
 .name {
+    font-family: cursive;
     color: ghostwhite;
     height: .1px;
     margin-bottom: 1.3rem;
@@ -35,9 +34,15 @@ header {
     justify-content: space-between;
 }
 
+header img {
+    width: 10rem;
+    height: 10rem;
+    display: inline-block;
+}
+
 .titulo {
     display: inline-block;
-    background: #070646;
+    background: var(--sec-bg-color);
     color: #fff;
     width: 90%;
     text-align: center;
@@ -47,33 +52,43 @@ header {
     font-size: 2.8rem;
 }
 
-.atl {
-    padding-left: 20rem;
-    width: 100rem;
+.desktop {
+    display: flex;
+    justify-content: center;
 }
 
-header img {
-    width: 100px;
-    height: 100px;
-    display: inline-block;
+.desktop-img {
+    width: 80rem;
+    height: 50rem;
 }
+
 
 main {
-    margin-left: 1rem;
-    font-size: 2rem;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-size: 1.6rem;
+}
+
+main h2 {
+    color: var(--sec-bg-color);
 }
 
 h3 {
-    color: #c1c9c6;
+    padding-top: 1rem;
+    color: #fff;
     font-size: 2.3rem;
 }
 
 p {
-    background: #4e4e4e;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #1a2928;
+    background: var(--p-bg-color);
+    color: var(--text-color);
     font-weight: 600;
     font-size: 2rem;
+}
+
+p::selection {
+    color: #457457;
+    background: black;
 }
 
 code {
@@ -81,13 +96,18 @@ code {
     color: green;
 }
 
-ol {
+code::selection {
+    background: green;
+    color: black;
+}
+
+.list {
+    list-style: none;
     color: #194d19;
-    margin-left: 5rem;
 }
 
 footer {
-    background: #194d19;
+    background: var(--sec-bg-color);
     height: 2%;
     text-align: start;
     width: 100%;
@@ -97,6 +117,7 @@ footer {
 }
 
 footer h4 {
+    width: 100;
     margin-top: 2rem;
     font-size: 2rem;
     text-align: start;
@@ -115,4 +136,37 @@ footer h4 a {
     color: #d9f5f5;
     padding-right: .5rem;
     padding-top: .5rem;
+}
+
+@media (max-width: 800px) {
+    .desktop-img {
+        width: 50rem;
+        height: 30rem;
+    }
+}
+
+@media (min-width: 300px) and (max-width:500px) {
+    p {
+        font-size: 1.6rem;
+    }
+
+    .desktop-img {
+        width: 35rem;
+        height: 30rem;
+    }
+
+    main {
+        margin-right: 2rem;
+        margin-left: 2rem;
+        font-size: 1.6rem;
+    }
+
+    header {
+        width: 96%;
+    }
+
+    header img {
+        width: 8.5rem;
+        height: 8.5rem;
+    }
 }

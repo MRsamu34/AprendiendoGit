@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,53 +10,81 @@
     <script src="https://kit.fontawesome.com/6995eb3d93.js" crossorigin="anonymous"></script>
     <title>Bienvenido a Samu Aprendiendo Git 2.0, Un blog del futuro</title>
 </head>
+
 <body>
     <div class="name"> MRsamu;) </div>
     <header>
         <img src="./images/dragon.png" alt="" srcset="">
         <h1 class="titulo">Aprendiendo Git y GitHub desde 0</h1>
-        <img src="./images/git.png" alt="" srcset="">    
+        <img src="./images/git.png" alt="" srcset="">
     </header>
-<img src="https://s3.gifyu.com/images/samuAtl.jpg" class="atl">
+    <picture class="desktop">
+        <img src="https://s3.gifyu.com/images/large0bc9fcc64cf52ce0.jpg" class="desktop-img">
+    </picture>
     <main class="textos">
         <h2>Este es le inicio de un Aprendizaje Emocionante!!💚💻</h2>
-        <h3>¿Que es git?</h3>ls
-        <p class="texto1">Git es un sistema de control de versiones, que permite gestionar proyectos para que tengan un historial de creación, poder mirar que cambio se han hecho a lo largo del desarrollo de ese proyecto y ver que personas han hecho los cambios
-        </p>
-         
-        <p class="texto2">
-            Para iniciar un proyecto con git debemos estar ubicados en el directorio del proyecto, ejemplo (proyecto1)
-            <code>mrsamu@MR-Samu MINGW64 ~/proyecto1</code>
-            para empezar a usar git ya ubicados se ejecuta el comando <br>
-            <code>
-             mrsamu@MR-Samu MINGW64 ~/proyecto1 <br>
-             $git init</code>
-        </p>
+        <section class="git-def">
+            <div class="git__def-div">
+                <h3 class="git__def-h3">¿Que es git?</h3>
+                <p class="texto1">Git es un sistema de   control de versiones, que permite  gestionar proyectos para que tengan
+                    un historial de creación, poder mirar que cambio se han hecho a lo largo del desarrollo de ese proyecto
+                    y ver que personas han hecho los cambios
+                </p>
+            </div>
+        </section>
+        <section class="init">
+
+            <p class="texto2">
+                Para iniciar un proyecto con git debemos estar ubicados en el directorio del proyecto, ejemplo (proyecto1)
+                <code>mrsamu@MR-Samu MINGW64 ~/proyecto1</code>
+                para empezar a usar git ya ubicados se ejecuta el comando <br>
+                <code>
+                    mrsamu@MR-Samu MINGW64 ~/proyecto1 <br>
+                    $git init</code>
+            </p>
+        </section>
         <h3>Ciclo Básico de trabajo en git</h3>
         <p>•En GIT existen diferentes areas de trabajo o ciclos de trabajo principales que son:</p>
-        <ol>
-            <li><p>Working directory </p></li>
-            <li><p>Staging Area </p></li>
-            <li><p>Git Directory </p></li>
+        <ol class="list">
+            <li>
+                <p>1.) Working directory </p>
+            </li>
+            <li>
+                <p>2.) Staging Area </p>
+            </li>
+            <li>
+                <p>3.) Git Directory </p>
+            </li>
         </ol>
 
         <p>Un proyecto se añade con: <code>git add nombreDelProyecto</code> </p>
-        
-        <p>Al añadirse el proyecto, todos los archivos de este estarán en el repositorio, cuando se haga un cambio, pero no se añadió con git add, esos cambios están en el working directory, al añadirse esos cambios con git add,los archivos del proyecto estarán en el staging area y no es hasta que se realiza un <code> git commit -m"Mensaje de un commit"</code> que los cambios del proyecto van a estar en el repositorio guardados definitivamente o en el Git Directory</p>
+
+        <p>Al añadirse el proyecto, todos los archivos de este estarán en el repositorio, cuando se haga un cambio, pero
+            no se añadió con git add, esos cambios están en el working directory, al añadirse esos cambios con git
+            add,los archivos del proyecto estarán en el staging area y no es hasta que se realiza un
+            <code> git commit -m"Mensaje de un commit"</code> que los cambios del proyecto van a estar en el repositorio
+            guardados definitivamente o en el Git Directory</p>
         <div class="branch-explain">
             <h3>Ramas en Git (Branch)</h3>
-            <p>Las ramas (Branch) en git, son diferentes 'lineas de tiempo' que contienen los commits realizados desde el inicio del proyecto, por defecto, en un repositorio git, se crea la rama main y tambien podemos crear otras ramas para hacer mas dinámico el trabajo con nustro proyecto, por ejemplo, una rama que se encargue de trabajar el footer de nestra página web, otra del header, y así tener una mejor organización y flujo de trabajo en nuestro repositorio.</p>
+            <p>Las ramas (Branch) en git, son diferentes 'lineas de tiempo' que contienen los commits realizados desde
+                el inicio del proyecto, por defecto, en un repositorio git, se crea la rama main y tambien podemos crear
+                otras ramas para hacer mas dinámico el trabajo con nustro proyecto, por ejemplo, una rama que se
+                encargue de trabajar el footer de nestra página web, otra del header, y así tener una mejor organización
+                y flujo de trabajo en nuestro repositorio.</p>
         </div>
     </main>
 
     <footer>
-         &copy; 2021 Samuel Alvarez Alvarez - All Rights Reserved
-         <h4> Social Networks: <br>
-            <a class="facebul"href="https://www.facebook.com/samuel.alvarezalvarez.3"><i class="fab fa-facebook"></i> Samuel Alvarez</a> <br>
-            <a class="facebul" href="https://instagram.com/samualvarez34"><i class="fab fa-instagram-square"></i>@SamuAlvarez8</a><br>
-            <a class="facebul" href="https://twitter.com/samualvarez8"><i class="fab fa-twitter"></i>@SamuAlvarez34</a>
+        &copy; 2021 Samuel Alvarez Alvarez - All Rights Reserved
+        <h4> Social Networks: <br>
+            <a class="facebul" href="https://www.facebook.com/samuel.alvarezalvarez.3"><i class="fab fa-facebook"></i>
+                Samuel Alvarez</a> <br>
+            <a class="facebul" href="https://instagram.com/samualvarez800"><i
+                    class="fab fa-instagram-square"></i>@SamuAlvarez800</a><br>
+            <a class="facebul" href="https://twitter.com/samualvarez8"><i class="fab fa-twitter"></i>@SamuAlvarez8</a>
         </h4>
     </footer>
     <script src="./javascript/main.js"></script>
 </body>
+
 </html>
